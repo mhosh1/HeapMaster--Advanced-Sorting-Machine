@@ -37,6 +37,16 @@ This project provides an in-depth implementation of a sorting machine, represent
 - Java Development Kit (JDK) 8 or higher.
 - Git for version control.
 
+### Example Output
+
+@Test
+public void testAddEmpty() {
+    SortingMachine<String> m = this.createFromArgsTest(ORDER, true);
+    SortingMachine<String> mExpected = this.createFromArgsRef(ORDER, true, "green");
+    m.add("green");
+    assertEquals(mExpected, m);
+}
+
 ### Installation
 
 1. Clone the repository:
