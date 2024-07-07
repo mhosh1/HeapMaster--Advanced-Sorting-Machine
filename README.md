@@ -40,11 +40,16 @@ This project provides an in-depth implementation of a sorting machine, represent
 ## Example Output
 
 @Test
+
 public void testAddEmpty() {
+    
     SortingMachine<String> m = this.createFromArgsTest(ORDER, true);
+    
     SortingMachine<String> mExpected = this.createFromArgsRef(ORDER, true, "green");
+    
     m.add("green");
-    assertEquals(mExpected, m);
+    a
+    ssertEquals(mExpected, m);
 }
 
 ## Installation
