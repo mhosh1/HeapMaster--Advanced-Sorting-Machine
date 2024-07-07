@@ -37,7 +37,7 @@ This project provides an in-depth implementation of a sorting machine, represent
 - Java Development Kit (JDK) 8 or higher.
 - Git for version control.
 
-### Example Output
+## Example Output
 
 @Test
 public void testAddEmpty() {
@@ -47,7 +47,7 @@ public void testAddEmpty() {
     assertEquals(mExpected, m);
 }
 
-### Installation
+## Installation
 
 1. Clone the repository:
    ```bash
